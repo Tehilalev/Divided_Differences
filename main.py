@@ -1,6 +1,6 @@
 import Divided_Differences_Table
 while True:
-    size = int(input("What is your size table:\n"))
+    size = int(input("What is your size table:\n"))  # size of the user's table
     new_table = []
     print("Please enter your table values in this way: Enter value x and then the value f(x)")
     while len(new_table) < size:
