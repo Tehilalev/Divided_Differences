@@ -14,6 +14,7 @@ def divided_differences_table(table):
         s += 1
         all_solution.append(solution)
 
+    # print the values of each dividing
     print("x\t  f(x)\n-----------------")  # print the title
     for i in range(0, len(table)):
         print(table[i][0], " ", '%.5f' % table[i][1])
